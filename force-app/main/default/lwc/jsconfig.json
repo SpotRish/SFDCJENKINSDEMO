@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/productTile": [
+                "productTile/productTile.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
+            "c/displayContacts": [
+                "displayContacts/displayContacts.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/productFilterViewCopy": [
+                "productFilterViewCopy/productFilterViewCopy.js"
+            ],
+            "c/heroDetails": [
+                "heroDetails/heroDetails.js"
+            ],
+            "c/hero": [
+                "hero/hero.js"
+            ],
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/createCase": [
+                "createCase/createCase.js"
+            ],
+            "c/accountMap": [
+                "accountMap/accountMap.js"
+            ],
+            "c/bikeCustomizerButtonBar": [
+                "bikeCustomizerButtonBar/bikeCustomizerButtonBar.js"
+            ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ],
+            "c/orderItemTile": [
+                "orderItemTile/orderItemTile.js"
+            ],
+            "c/productTabViewCopy": [
+                "productTabViewCopy/productTabViewCopy.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ],
+            "c/editContacts": [
+                "editContacts/editContacts.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
